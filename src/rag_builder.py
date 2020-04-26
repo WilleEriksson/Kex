@@ -20,10 +20,6 @@ def assign_weights(g, mode, imtitle, beta):
         for x, y, d in g.edges(data=True):
             d['weight'] = np.absolute(Laplacian[(x,y)])
 
-    elif mode == 'experiment':
-        # Replace "1" with weight of choice.
-        for x, y, d in g.edges(data=True):
-            d['weight'] = 1
     else:
         raise ValueError("The mode '%s' is not recognised" % mode)
 

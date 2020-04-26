@@ -37,7 +37,7 @@ def init_seg_needed(img, imtitle, compactness, n_segments):
 
 def save_init_seg(labels,img,imtitle,compactness,n_segments):
     '''
-    Saves values of the initial segmentation, so that they can be reused if
+    Saves values of the superpixel clustering, so that they can be reused if
     changes are only to be made to the weight assignment.
     '''
 

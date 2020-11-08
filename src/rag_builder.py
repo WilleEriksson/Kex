@@ -1,3 +1,5 @@
+# Author: Wille Eriksson, May 2020
+
 from skimage.future import graph
 import numpy as np
 import math

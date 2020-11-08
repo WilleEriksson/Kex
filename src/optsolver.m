@@ -1,3 +1,5 @@
+% Author: Wille Eriksson, May 2020
+
 tic
 
 X = readNPY('regions_road.npy');

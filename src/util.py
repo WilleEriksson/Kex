@@ -1,3 +1,5 @@
+# Author: Wille Eriksson, May 2020
+
 from skimage import color
 from PIL import Image
 import numpy as np
